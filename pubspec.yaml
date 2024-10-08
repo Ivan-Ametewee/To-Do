@@ -1,4 +1,4 @@
-name: To-Do
+name: ToDo
 description: "A basic todo app."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -31,12 +31,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   shared_preferences: ^2.3.2
-  #flutter_launcher_icons: ^0.14.1
 
 dev_dependencies:
   flutter_test:
@@ -48,11 +46,12 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.1
 
-#flutter_launcher_icons:
-  #android: true
-  #ios: true
-  #image_path: "assets/icons/todo_logo.png"
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
   #adaptive_icon_background: "#ffffff"
   #adaptive_icon_foreground: "ffffff"
 # For information on the generic Dart part of this file, see the
